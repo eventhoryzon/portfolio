@@ -1,0 +1,7 @@
+@import "~bulma/sass/utilities/variables";
+
+$primary: rgb(235, 202, 16);
+$primary-invert: findColorInvert($primary);
+
+$secondary: rgb(235, 202, 17);
+$secondary-invert: findColorInvert($secondary);

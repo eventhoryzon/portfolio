@@ -24,7 +24,7 @@
 export default {
   name: "copyright",
   mounted() {
-    sr.reveal(".footer .reveal", 500);
+    sr.reveal(".footer .reveal", 200);
   },
   data() {
     return {
@@ -46,7 +46,7 @@ export default {
           link: "https://plus.google.com/+shazibali"
         },
         {
-          icon: "github",
+          icon: "github-square",
           link: "https://github.com/he77y"
         }
       ]

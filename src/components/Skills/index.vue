@@ -3,7 +3,7 @@
     <div class="container">
       <div class="block has-text-centered">
         <h2 class="title is-2">Skills</h2>
-        <separator color="#18b6ff"></separator>
+        <separator color="#bbbbbb"></separator>
         <h5 class="subtitle is-5">Technologies and Frameworks I am working with now.</h5>
       </div>
       <div class="skills columns is-multiline is-mobile">

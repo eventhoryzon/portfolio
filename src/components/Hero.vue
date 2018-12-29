@@ -6,10 +6,15 @@
       </div>
       <div class="hero-body">
         <div class="container has-text-centered">
+          <div class="has-text-grey-lighter">
           <span>
-            <p class="title is-3 is-spaced">Hey, Welcome !</p>
+            <p class="title is-4 is-spaced">Welcome</p>
           </span>
-          <separator color="#18b6ff"></separator>
+          <separator color="#ffffff"></separator>
+          <span>
+            <p class="subtitle is-5 is-spaced">About me?</p>
+          </span>
+          <span><p>----------------</p></span>
           <span>
             <p class="subtitle is-6 is-spaced">{{ headline }}</p>
           </span>
@@ -23,13 +28,17 @@
               <b>{{ work }}</b>
             </p>
           </span>
+           <span><p>-------------------------</p></span>
           <span>
             <p class="subtitle is-6 is-spaced">{{new2}}</p>
           </span>
+          <span><p>----------------------------</p></span>
           <span>
             <p class="subtitle is-6 is-spaced">{{new3}}</p>
           </span>
+          <span><p color="#bbbbbb">---------------------------------</p></span>
         </div>
+      </div>
       </div>
 
       <div class="hero-foot">
@@ -54,8 +63,8 @@ export default {
   data() {
     return {
       title: "Portfolio",
-      headline: "I am a developer who likes to design and code.",
-      subtitle: "'What I do? I solve problems with curiosity and integrity'",
+      headline: "I am a developer who breathes to design,test and code.",
+      subtitle: "---------------------",
       work:
         "'What am I working on?' Building ERC20 Tokens on Ethereum Blockchain.",
       new2: "'Employment?' Exploring full-time employment options.",
@@ -71,7 +80,7 @@ export default {
     }
   },
   mounted() {
-    sr.reveal("#hero .hero-body > .container *", 400);
+    sr.reveal("#hero .hero-body > .container *", 200);
     sr.reveal("#hero .hero-foot", 200);
 
     window.addEventListener("scroll", this.navHandler.bind(this));

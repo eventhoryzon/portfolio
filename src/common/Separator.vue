@@ -1,7 +1,8 @@
 <template>
   <div class="separator-container"
     :style="`--separator-color: ${color}`">
-    <div class="separator">❖</div>
+    <div class="separator">❅ ❆ ❅
+  </div>
   </div>
 </template>
 
@@ -23,22 +24,22 @@ export default {
     position: relative;
     user-select: none;
     pointer-events: none;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .separator {
     align-items: center;
     color: var(--separator-color);
-    margin: 0 auto 1em;
+    margin: 0 auto 0.5em;
     width: 10em;
 
     &:before,
     &:after {
       display: block;
-      width: 40%;
+      width: 30%;
       content: " ";
-      margin-top: 20px;
-      border: 1px solid var(--separator-color);
+      margin-top: 15px;
+      border: 0.5px solid var(--separator-color);
     }
 
     &:before {
